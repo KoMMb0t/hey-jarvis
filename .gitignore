@@ -1,0 +1,88 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment Variables & Secrets
+.env
+*.env
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Audio Data (recordings can be large)
+data/positive/*.wav
+data/negative/*.wav
+data/background/*.wav
+data/augmented/*.wav
+wake_word/recordings/*.wav
+
+# Models (can be large, users should download)
+models/*.ppn
+models/*.pmdl
+models/vosk-*/
+*.onnx
+*.tflite
+
+# Build artifacts
+*.spec
+build/
+dist/
+*.exe
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp_*.mp3
+temp_*.wav
+*.tmp
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation builds
+docs/_build/
