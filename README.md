@@ -50,6 +50,25 @@ hey-jarvis/
 - Windows 11 (primary target platform)
 - Microphone for recording samples
 
+### Development Environment
+
+Set up a local development environment with the provided helper scripts:
+
+```bash
+# Linux/macOS
+chmod +x scripts/setup_dev_env.sh
+./scripts/setup_dev_env.sh
+source .venv/bin/activate
+```
+
+```powershell
+# Windows PowerShell
+powershell -ExecutionPolicy Bypass -File scripts/setup_dev_env.ps1
+.\.venv\Scripts\Activate.ps1
+```
+
+Use the `PYTHON` environment variable to point to a specific Python executable if needed (for example, `PYTHON=python3.11 ./scripts/setup_dev_env.sh`).
+
 ### Installation
 
 ```bash
